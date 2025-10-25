@@ -1,5 +1,5 @@
 import React from 'react';
-import BImg1 from '../assets/Body-img-1.png'
+import BImg1 from '../assets/body-img-1.png'
 
 const Unlock = () => {
     return (
