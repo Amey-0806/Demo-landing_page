@@ -1,4 +1,9 @@
 import React from 'react';
+import BImg2 from '../assets/Body-img-2.png'
+import BImg3 from '../assets/Body-img-3.png'
+import CImg1 from '../assets/card-img-1.png'
+import CImg2 from '../assets/card-img-2.png'
+import CImg3 from '../assets/card-img-3.png'
 
 const clientLogos = [
     {
@@ -150,14 +155,12 @@ const BlogCard = ({ title, imageUrl }) => (
 const Body = () => {
     return (
         <div className="font-sans antialiased text-gray-800">
-            {/* --- Section 1: How to design... --- */}
             <section className="py-16 lg:py-24 bg-white">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
 
-                        <img src="./body-img-2.png" alt="" />
+                        <img src={BImg2} alt="" />
 
-                        {/* Text Content (Right) */}
                         <div className="flex flex-col justify-center">
                             <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-6">
                                 How to design your site footer like we did
@@ -187,7 +190,7 @@ const Body = () => {
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center mb-16">
 
-                        <img src="./body-img-3.png" alt="" />
+                        <img src={BImg3} alt="" />
 
                         <div>
                             <p className="text-sm lg:text-xl font-medium text-gray-800 mb-6 leading-snug">
@@ -236,15 +239,15 @@ const Body = () => {
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                         <BlogCard
                             title="Creating Streamlined Safeguarding Processes with OneRen"
-                            imageUrl={'/card-img-1.png'}
+                            imageUrl={CImg1}
                         />
                         <BlogCard
                             title="What are your safeguarding responsibilities and how can you manage them?"
-                            imageUrl={'/card-img-2.png'}
+                            imageUrl={CImg2}
                         />
                         <BlogCard
                             title="Revamping the Membership Model with Triathlon Australia"
-                            imageUrl={'/card-img-3.png'}
+                            imageUrl={CImg3}
                         />
                     </div>
                 </div>

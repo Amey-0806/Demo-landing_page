@@ -1,4 +1,5 @@
 import React from 'react';
+import BImg1 from '../assets/Body-img-1.png'
 
 const Unlock = () => {
     return (
@@ -6,7 +7,7 @@ const Unlock = () => {
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="lg:grid lg:grid-cols-2 lg:gap-8 items-center">
                     <div className="flex justify-center lg:justify-start mb-12 lg:mb-0">
-                        <img src="./body-img-1.png" loading='lazy' alt="" />
+                        <img src={BImg1} loading='lazy' alt="" />
                     </div>
 
                     <div className="text-center lg:text-left">

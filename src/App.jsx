@@ -1,5 +1,5 @@
 import HeroSec from "./components/HeroSec"
-import Navbar from "./components/NavBAr"
+import Navbar from "./components/NavBar"
 import ClientSec from "./components/ClientSec"
 import Unlock from "./components/UnlockSec"
 import Achievements from "./components/Achievements"

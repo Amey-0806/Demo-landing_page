@@ -1,4 +1,5 @@
 import React from 'react';
+import HeroImg from '../assets/Hero-img.png';
 
 // NOTE: No React hooks (useState, useEffect, etc.) are used, as requested.
 const HeroSec = () => {
@@ -26,7 +27,7 @@ const HeroSec = () => {
 
                     <div className="mt-12 lg:mt-0 flex justify-center lg:justify-end">
                         <img
-                            src="/Hero-img.png"
+                            src={HeroImg}
                             alt="Hero"
                             loading="lazy"
                             className="w-full max-w-md"
